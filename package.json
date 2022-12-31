@@ -1,0 +1,27 @@
+{
+  "name": "breached-id",
+  "version": "1.0.0",
+  "description": "project tahun baru",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryugenxd/breached-id.git"
+  },
+  "author": "termux id",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryugenxd/breached-id/issues"
+  },
+  "homepage": "https://github.com/ryugenxd/breached-id#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20"
+  }
+}
